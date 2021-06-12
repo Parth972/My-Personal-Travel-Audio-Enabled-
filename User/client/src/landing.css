@@ -1,0 +1,43 @@
+.land{
+    background-image: url('./photo-1534440274380-4a646154d060.jpg');
+    background-repeat:no-repeat;
+    background-position: 'center';
+    background-size: cover;
+    width: 100%;
+    height:100%
+}
+
+span .glass{
+    display: 'flex';
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+
+.button
+{
+  position: relative;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  font-size: 10x;
+  color: #f1e9ec;
+  font-family: poppins;
+  font-weight: 400;
+  background-color: rgb(184, 174, 174);
+  border: 1px solid #15f4ee;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+
+}
+
+.button:hover
+{
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+  text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
